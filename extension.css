@@ -1,0 +1,155 @@
+.updateContent {
+	top: 20%;
+	left: 20%;
+	width: 60%;
+	height: 60%;
+	background-image: url('./image/mode/contentBackground1.jpg');
+	background-position: top;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	z-index: 100;
+	overflow-y: scroll;
+}
+
+.updateContentClose {
+	position: absolute;
+	right: 0px;
+	width: 50px;
+	height: 50px;
+	background: silver;
+	border-radius: 25px;
+	box-shadow: 2px 2px 5px 0px black;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.updateContentClose:hover {
+	background: red;
+}
+
+.updateContentClose:before {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 10px;
+	background: white;
+	transform: rotate(45deg);
+	top: 20px;
+	left: 10px;
+}
+
+.updateContentClose:after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 10px;
+	background: white;
+	transform: rotate(-45deg);
+	top: 20px;
+	left: 10px;
+}
+
+.updateContentButton {
+	z-index: 100;
+	position: fixed;
+	bottom: 15px;
+	width: 30%;
+	left: 35%;
+}
+
+.updateContent1 {
+	font-size: 1rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.updateContent2 {
+	font-size: 1rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+details {
+	border: 1.5px solid #b4b4e0;
+	border-radius: 4px;
+	padding: .5em .5em 0;
+}
+
+summary {
+	font-weight: bold;
+	margin: -.5em -.5em 0;
+	padding: .5em;
+	color: #ff6633;
+}
+
+details[open] {
+	padding: .5em;
+}
+
+details[open] summary {
+	border-bottom: 1px solid #b4b4e0;
+	margin-bottom: .5em;
+}
+
+h1.updateContent1 {
+	font-size: 20px;
+	font-style: italic;
+	color: #dd7e6b;
+	background-color: #b4b4e0;
+	white-space: pre;
+}
+
+h1.updateContent2 {
+	font-size: 20px;
+	font-style: italic;
+	color: #dd7e6b;
+	background-color: #b4b4e0;
+}
+
+h3.updateContent1 {
+	font-size: 18px;
+	font-weight: 800;
+}
+
+h3.updateContent2 {
+	font-size: 18px;
+	font-weight: 800;
+	color: #dd7e6b;
+}
+
+p.updateContent1 {
+	font-size: 15px;
+	white-space: pre-wrap;
+}
+
+p.updateContent2 {
+	font-size: 15px;
+}
+
+font.updateContentM{
+	color: #ffcc00;
+}
+
+font.updateContentS{
+	color: #ff66ff;
+}
+
+font.updateContentC{
+	color: #33ff00;
+}
+
+font.updateContentV{
+	color: #ccccff;
+}
+
+div.supplyAnimation{
+	background: url('image/mode/supplyAnimation1.gif');
+    position: absolute;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    display: block;
+    min-width: 80%;
+    min-height: 80%;
+    transform:translate(-50%,-50%);
+}

@@ -1,0 +1,214 @@
+*{
+    /* 初始化 */
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* 100%窗口高度 */
+    height: 100vh;
+    /* 弹性布局 水平+垂直居中 */
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    /* 渐变背景 */
+    background: linear-gradient(200deg,#517fa4,#243949);
+    background-attachment:fixed;
+}
+.container{
+    display: flex;
+    overflow-x: auto;
+    width: 85%;
+    overflow: scroll;
+    margin: auto;
+}
+.container::-webkit-scrollbar{display: none;}
+.card{
+    /* 相对定位 */
+    position: relative;
+    width: 300px;
+    height: 430px;
+    margin: 23px;
+    background-color: #758a99;
+    border-radius: 20px;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* 弹性布局 */
+    display: flex;
+    justify-content:center;
+    /* 元素纵向排列 */
+    flex-direction: column;
+    /* 居中 */
+    align-items: center;
+    color: #fff;
+    /* 阴影 */
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    /* 不让其被挤压 */
+    flex-shrink: 0;
+}
+.card .photo img{
+    width: 100%;
+    height: 100%;
+    /* 保持原有尺寸比例，裁切长边 */
+    object-fit: cover;
+}
+/* 默认大图 */
+.card .photo{
+    /* 绝对定位 */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    overflow: hidden;
+    /* 动画过渡 */
+    transition: 0.5s;
+}
+/* 鼠标移入变小图 */
+.card:hover .photo{
+    top: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+/* 这里加个黑色到透明的渐变背景，可以更好的看清楚名字 */
+.card .photo::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,transparent 50%,#222);
+}
+.card h1{
+    position: absolute;
+    top: 370px;
+    transition: 0.5s;
+}
+.card:hover h1{
+    top: 170px;
+}
+.card h2{
+    margin-top: 220px;
+    width: 80%;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.card p{
+    width: 90%;
+    text-indent: 32px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.card a{
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+.card a:hover{
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
+}
+.arrow-button{
+    /* display: flex;
+    justify-content: center; */
+    font-size: large;
+}
+.arrow-left ,
+.arrow-right{
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    top:50%;
+    width: 2.5em;
+    height: 2.5em;
+    transform: translateY(-50%);
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+}
+.arrow-left:hover,
+.arrow-right:hover{
+    background: #fff;
+    color: #000;
+}
+.arrow-left{
+    left: 1em;
+}
+.arrow-right{
+    right: 1em;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    display:block;
+    list-style: none;
+    font-size: 20px;
+    color: #f4f1de;
+    display: flex;
+    justify-content: left;
+    background-color: #f4f163;
+    /* background-image:linear-gradient(to right, #a18cd1, #fbc2eb); */
+}
+.top h1{
+    color: #fff;
+    text-align: center;
+    vertical-align:bottom;
+    font-size: 20px;
+}
+.shell{
+    display: flex;
+    justify-content: center;
+}
+.shellbutton{
+    background-color: #50536e;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+    z-index: 10000;
+}
+.shellbutton:hover{
+    background-color: #d15a39;
+}
+.shellbutton li:hover{
+    background-color: #ffb29d;
+}
+.shell li{
+    list-style-type:none;
+}
+.shellbutton ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(-65px);
+    background-color: #e07a5f;
+    list-style-type:none;
+}
+.shellbutton:hover li{
+    height: 45px;
+    opacity: 1;
+    line-height: 45px;
+    transform: translateY(0);
+    list-style-type:none;
+}
+.shellbutton a:link{
+    font-size: 16px;
+    color: #f4f1de;
+    text-decoration: none;
+}
+.shellbutton a:visited{
+    font-size: 16px;
+    color: #f4f1de;
+    text-decoration: none;
+}

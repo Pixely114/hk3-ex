@@ -1,0 +1,20 @@
+extension["崩崩崩"]={
+	intro:"<span style=\"color: blue\">崩</span><span style=\"color: yellow\">崩</span><span style=\"color: pink\">崩</span> 版本1.0.4<br>扩展交流群：657499832<br> <br>内容介绍——<br>本扩展为崩坏3同人自制扩展，范围为<span style=\"color: blue\">角色</span>，<span style=\"color: yellow\">圣痕</span>以及</span><span style=\"color: pink\">部分剧情角色</span>等，意在自娱自乐以及供同好一起娱乐。<br>本扩展中大部分角色ai比较简单，在部分情况下会出现睿智操作，有少数角色ai未实装，如遇智障人机可以酌情设置<span style=\"color: blue\">仅自由选将可用</span>。<br>如果在使用过程中遇到了不对劲的地方，请多海涵，新人作者入坑无名杀时间不长，全靠大佬邦邦。<br> <br><span style=\"color: red\">关于制作人员</span>——<br><li>武将设计：Ezie、Argon<br><li>代码实现：Argon、德克萨斯<br><li>技术指导：德克萨斯<br>",
+    author:"Argon",
+    diskURL:"",
+    forumURL:"",
+    version:"1.0.4",
+	files:["baixi.jpg","bhaidisheng.jpg","bhaotuo.jpg","bhaotuoweila.jpg","bhbailian.jpg",
+		"bhchiling.jpg","bhciyuan.jpg","bhdiliuyexiangqu.jpg","bhfeihong.jpg","bhguikai.jpg",
+		"bhhuixingqudong.jpg","bhjialilue.jpg","bhjidizhanren.jpg","bhkaiwen.jpg","bhkaixuan.jpg",
+		"bhkalian.jpg","bhlanmeitegong.jpg","bhmenjieliefu.jpg","bhmichenghaitu.jpg","bhnishenwunv.jpg",
+		"bhnuobeier.jpg","bhpoxiaoqiangxi.jpg","bhqiangxi.jpg","bhqianjie.jpg","bhqizongzui_baonu.jpg",
+		"bhqizongzui_baoshi.jpg","bhqizongzui_landuo.jpg","bhrongguang.jpg","bhshanchui.jpg",
+		"bhshengnvqidao.jpg","bhshenhong.jpg","bhshiyue.jpg","bhshizhilvzhe.jpg","bhsu.jpg",
+		"bhtesila.jpg","bhtianqiongyouxia.jpg","bhxilin.jpg","bhxinyanzhilvzhe.jpg","bhyang.jpg",
+		"bhyinghuolunwu.jpg","bhyingtaozhadan.jpg","bhyingwuchongji.jpg","bhyouxia.jpg",
+		"bhyuanzuilieren.jpg","bhyueguang.jpg","bhyueshi.jpg","bhyuexiachuyong.jpg","bhyunmodanxin.jpg",
+		"bhzhanchangjifeng.jpg","bhzhanche.jpg","bhzhenyanxinghun.jpg","extension.js","heixi.jpg",
+		"package.js","qiangdou_use1.mp3","qiangdou_use2.mp3","bhshalianna.jpg","bhlinaerduo.jpg","bhxialuote.jpg","bhkaipule.jpg","bhshenensongge.jpg","bhweiduoliya.jpg","bhyuepo.jpg"],
+	size:"56MB"
+};

@@ -1,0 +1,705 @@
+<head>
+    <meta charset="utf-8">
+    <style>
+        .updateContent {
+            top: 20%;
+            left: 20%;
+            width: 100%;
+            height: 100%;
+            background-image: url('./image/mode/contentBackground1.jpg');
+            background-position: top;
+            background-color: rgba(0, 0, 0, 0.6);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            z-index: 100;
+            overflow-y: scroll;
+            color: white;
+        }
+
+        .updateContentClose {
+            position: absolute;
+            right: 0px;
+            width: 50px;
+            height: 50px;
+            background: silver;
+            border-radius: 25px;
+            box-shadow: 2px 2px 5px 0px black;
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .updateContentClose:hover {
+            background: red;
+        }
+
+        .updateContentClose:before {
+            position: absolute;
+            content: '';
+            width: 30px;
+            height: 10px;
+            background: white;
+            transform: rotate(45deg);
+            top: 20px;
+            left: 10px;
+        }
+
+        .updateContentClose:after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 10px;
+            background: white;
+            transform: rotate(-45deg);
+            top: 20px;
+            left: 10px;
+        }
+
+        .updateContentButton {
+            z-index: 100;
+            position: fixed;
+            bottom: 15px;
+            width: 30%;
+            left: 35%;
+        }
+
+        .updateContent1 {
+            font-size: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        .updateContent2 {
+            font-size: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        details {
+            border: 1.5px solid #b4b4e0;
+            border-radius: 4px;
+            padding: .5em .5em 0;
+        }
+
+        summary {
+            font-weight: bold;
+            margin: -.5em -.5em 0;
+            padding: .5em;
+            color: #ff6633;
+        }
+
+        details[open] {
+            padding: .5em;
+        }
+
+        details[open] summary {
+            border-bottom: 1px solid #b4b4e0;
+            margin-bottom: .5em;
+        }
+
+        h1.updateContent1 {
+            font-size: 20px;
+            font-style: italic;
+            color: #dd7e6b;
+            background-color: #b4b4e0;
+            white-space: pre;
+        }
+
+        h1.updateContent2 {
+            font-size: 20px;
+            font-style: italic;
+            color: #dd7e6b;
+            background-color: #b4b4e0;
+        }
+
+        h3.updateContent1 {
+            font-size: 18px;
+            font-weight: 800;
+            color: white;
+        }
+
+        h3.updateContent2 {
+            font-size: 18px;
+            font-weight: 800;
+            color: #dd7e6b;
+        }
+
+        p.updateContent1 {
+            font-size: 15px;
+            white-space: pre-wrap;
+            color: white;
+        }
+
+        p.updateContent2 {
+            font-size: 15px;
+        }
+
+        font.updateContentM {
+            color: #ffcc00;
+        }
+
+        font.updateContentS {
+            color: #ff66ff;
+        }
+
+        font.updateContentC {
+            color: #33ff00;
+        }
+
+        font.updateContentV {
+            color: #ccccff;
+        }
+
+        tr td,th{
+            border:1px solid #EEE5DE;
+            color: white;
+        }
+        table.updateContent1{
+            border:2px solid #EEE5DE;
+        }
+
+        div.supplyAnimation {
+            background: url('image/mode/supplyAnimation1.gif');
+            position: absolute;
+            background-size: cover;
+            top: 50%;
+            left: 50%;
+            display: block;
+            min-width: 80%;
+            min-height: 80%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="updateContent">
+        <h1 class="updateContent1">基础 </h1>
+        <details>
+            <summary>查看详细内容</summary>
+            <li> 补给系统对所有局内玩家生效，该系统使用水晶作为基本代币，通过各种渠道获得的水晶会<font class="updateContentM"><strong>永久保留</strong></font>。
+            </li><br>
+            <li> 一名角色的水晶数量<font class="updateContentM"><strong>仅自己可见</strong></font>，但是获得的水晶数量所有人可见，水晶可见度可以<font
+                    class="updateContentM"><strong>在设置中手动调整</strong></font>。
+            </li><br>
+            <li> 人机的初始水晶数为：<font class="updateContentM"><strong>100~20000</strong></font>之间的<font
+                    class="updateContentM"><strong>随机数</strong></font>。
+            </li><br>
+                   
+
+            <h3 class="updateContent2">进行补给</h3>
+            <li>
+                <font class="updateContentM"><strong>出牌阶段</strong></font>，当前回合角色可以消耗水晶进行<font class="updateContentM">
+                    <strong>自选类型</strong></font>的补给。小氪怡情，大氪伤身，强氪灰飞烟灭。每回合至多进行<font class="updateContentM">
+                    <strong>20</strong></font>次任意形式的补给，这个限制可以<font class="updateContentM"><strong>在设置中手动调整</strong>
+                </font>。
+            </li><br>
+            <li>每次<font class="updateContentM"><strong>进行补给</strong></font>时，需要<font class="updateContentM">
+                    <strong>弃置一张手牌</strong></font>作为消耗（不足则不弃），这个消耗可以<font class="updateContentM">
+                    <strong>在设置中手动关闭</strong></font>。
+            </li><br>
+            <li>可选的补给分为四类：<font class="updateContentM"><strong>标配补给</strong></font>、<font class="updateContentM">
+                    <strong>精准补给</strong></font>、<font class="updateContentM"><strong>扩充补给</strong></font>和<font
+                    class="updateContentM"><strong>火力补给</strong></font>。一发单抽的价格为<font class="updateContentM">
+                    <strong>280</strong></font>水晶，一发十连的价格为<font class="updateContentM"><strong>2800</strong></font>
+                水晶。每个补给池子都有“保底”机制，并且<font class="updateContentM">
+                    <strong>有且仅有标配补给和扩充补给的“100发保底”可以无视当期UP和游戏局数一直继承</strong></font>
+                ，除此以外的“保底”无法继承到下一局游戏。当抽出任何S角色卡或特殊装备时保底次数将重置，不同类型的补给<font class="updateContentM">
+                    <strong>无法共享保底次数</strong></font>。
+            </li><br>
+
+            <li>通过补给系统获得一张<font class="updateContentM"><strong>角色卡</strong></font>时，若该角色卡为<font class="updateContentM">
+                    <strong>S级</strong></font>，获得者可以选择该角色<font class="updateContentM"><strong>任意个技能</strong></font>
+                获得之，或者<font class="updateContentM"><strong>取消并增加1点体力上限</strong></font>。若该角色卡为<font
+                    class="updateContentM"><strong>A级</strong></font>，获得者可以选择该角色<font class="updateContentM">
+                    <strong>一个技能</strong></font>获得之。若获得者已经拥有角色卡对应的<font class="updateContentM"><strong>所有技能</strong>
+                </font>，则获得者改为<font class="updateContentM"><strong>增加1点体力上限</strong></font>。
+            </li><br>
+
+            <li>通过补给系统获得一张<font class="updateContentM"><strong>牌</strong></font>时，优先从<font class="updateContentM">
+                    <strong>牌堆和弃牌堆</strong></font>中<font class="updateContentM"><strong>检索</strong></font>
+                符合条件的牌；若其中无符合条件的牌（例如其正处于其他角色的装备区或手牌中），则改为获得一张符合条件的<font class="updateContentM"><strong>额外牌</strong>
+                </font>。
+            </li><br>
+
+            <li>通过补给系统获取<font class="updateContentM"><strong>额外牌</strong></font>（常作形如“获得一张额外的……”的说明）时，先<font
+                    class="updateContentM"><strong>生成</strong></font>符合条件的牌，再将此牌（或这些牌）<font class="updateContentM">
+                    <strong>加入目标角色的手牌</strong></font>中。此类牌将<font class="updateContentM"><strong>能够进入牌堆</strong></font>
+                ，对本局游戏的牌堆结构也会产生影响。以此法生成一张额外牌时，将按照以下规则进行：
+                <ol>
+                    <li>
+                        若未指定其<font class="updateContentM"><strong>花色或点数</strong></font>，则随机决定；</li>
+                    <li>若未指定其<font class="updateContentM"><strong>类型</strong></font>，则以 基本牌 : 锦囊牌 : 装备牌 = 3 : 2 :
+                        1的权重随机决定其类型；
+                    </li>
+                    <li>
+                        若未指定其<font class="updateContentM"><strong>牌名</strong></font>
+                        ，则从【崩崩崩】扩展、【标准版】牌堆和【军争篇】牌堆中随机选择一个同类型牌的牌名，如下：
+                        <ol>
+                                <li>为<font class="updateContentM"><strong>锦囊牌</strong></font>选择牌名时，每种牌名的权重相等； </li>
+                                <li>为<font class="updateContentM"><strong>装备牌</strong></font>
+                                选择牌名时，仅从普通装备的列表中选择，每种牌名的权重相等；
+                                    </li><br>
+                               <li>为<font class="updateContentM"><strong>基本牌</strong></font>随机选择牌名时，按照以下概率进行：
+                                <ol start=''>
+                                    <li> 有35%概率为普通【杀】； </li>
+                                    <li> 有15%概率为随机属性【杀】（每种属性【杀】的权重相同）； </li>
+                                    <li> 有25%概率为【闪】； </li>
+                                    <li> 有12%概率为【桃】； </li>
+                                    <li> 有8%概率为【酒】； </li>
+                                    <li> 有5%概率为【崩坏结晶】。 </li>
+                                </ol>
+                            </li><br></ol>
+                    </li><br>
+                </ol>
+            </li><br>
+        </details>
+        <h1 class="updateContent1">水晶的获取 </h1>
+        <details>
+            <summary>查看详细内容</summary>
+            <h3 class="updateContent2">基础配给 </h3>
+            <ol start=''>
+                <li> 从<font class="updateContentM"><strong>第二轮</strong></font>起，每轮开始时，所有<font class="updateContentM">
+                        <strong>存活角色</strong></font>各自获得一些水晶（据深渊战绩发放，当前默认为<font class="updateContentM">
+                        <strong>寂灭保级420</strong></font>）。
+                </li>
+                <li> 每个<font class="updateContentM"><strong>出牌阶段开始时</strong></font>，当前回合角色获得<font
+                        class="updateContentM"><strong>140</strong></font>水晶（每日任务），正常情况下1和2每轮<font
+                        class="updateContentM"><strong>560</strong></font>水晶=<font class="updateContentM">
+                        <strong>2</strong></font>发单抽。
+                </li>
+                <li> 水晶数量为<font class="updateContentM"><strong>0</strong></font>时，系统立即赠送<font class="updateContentM">
+                        <strong>300</strong></font>水晶。
+                </li>
+            </ol>
+            <h3 class="updateContent2">救助与击杀 </h3>
+            <ol start=''>
+                <li>当一名角色<font class="updateContentM"><strong>杀死一名其他角色</strong></font>后获得一些水晶，<font
+                        class="updateContentM"><strong>基础值</strong></font>为<font class="updateContentM">
+                        <strong>60</strong></font>点，然后根据下列规则将水晶数量分别乘以相应倍数。 <ol start=''>
+                        <li> 根据<font class="updateContentM"><strong>凶手</strong></font>身份：主公 - 5倍，忠臣 - 3倍，反贼 - 2倍，内奸 -
+                            4倍。
+                        </li>
+                        <li> 根据<font class="updateContentM"><strong>死者</strong></font>身份：主公 - 8倍，忠臣 - 1倍，反贼 - 2倍，内奸 -
+                            4倍。
+                        </li>
+                        <li> 以下特殊情况<font class="updateContentM"><strong>没有水晶奖励</strong></font>
+                            （即0倍）：自杀、主公与忠臣互相杀害、内奸撕票（还未开始单挑就杀死主公）。
+                        </li>
+                    </ol>
+                </li><br>
+            </ol>通过这种方法获取的水晶数量<font class="updateContentM"><strong>仅自己可见</strong></font>。 举例：忠杀反为60 <em> 3 </em>
+            2=360水，主杀反为60 <em> 5 </em> 2=600水，内杀主为60 <em> 4 </em> 8=1920水，农民杀地主为60 <em> 2 </em> 8=960水，主公自尽为60 <em> 5
+            </em> 8*0=0水。
+            <ol start='2'>
+                <li> 一名角色在<font class="updateContentM"><strong>回合外阵亡</strong></font>时，其获得<font class="updateContentM">
+                        <strong>60</strong></font>水晶。
+                </li>
+                <li> 当一名角色令一名<font class="updateContentM"><strong>其他角色</strong></font>脱离濒死状态时，救助者获得<font
+                        class="updateContentM"><strong>120</strong></font>水晶。
+                </li>
+            </ol>
+            <h3 class="updateContent2">成就系统 </h3>待开发
+            达成成就后，每轮<font class="updateContentM"><strong>基础配给</strong></font>的水晶数增加各成就对应数值之和 <h3 class="updateContent2">
+                记忆战场 </h3>
+            在记忆战场中<font class="updateContentM"><strong>挑战胜利</strong></font>后，根据<font class="updateContentM">
+                <strong>用时</strong></font>，会获得<font class="updateContentM"><strong>1000/500/300</strong></font>三个不同档次的水晶
+            <h3 class="updateContent2">往事乐土 </h3>
+            待开发
+            <h3 class="updateContent2">深渊 </h3>
+            待开发
+            <h3 class="updateContent2">氪金系统</h3>
+            免费游戏，想啥呢
+        </details>
+        <h1 class="updateContent1"><a name="补给一览" class="md-header-anchor"></a> 补给一览 </h1>
+        <details>
+            <summary>查看详细内容</summary>
+            <h3 class="updateContent2">标配补给 </h3>
+            <figure>
+                <table class="updateContent1">
+                    <thead>
+                                <tr>
+                            <th>
+                                <font class="updateContentM"><strong>项目</strong></font>
+                            </th>
+                            <th>
+                                <font class="updateContentM"><strong>绝对概率</strong></font>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                <tr>
+                            <td> S角色卡 </td>
+                            <td> 4.5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> A角色卡 </td>
+                            <td> 20% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 特殊装备 </td>
+                            <td> 2.5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 普通装备 </td>
+                            <td> 13% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 回复1点体力 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸两张牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的锦囊牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的基本牌 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸一张牌 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 手牌上限+1 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 300水晶 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                            </tbody>
+                </table class="updateContent1">
+            </figure>
+            保底明细：
+            <li> 每进行<font class="updateContentM"><strong>10</strong></font>次补给必出一张<font class="updateContentM">
+                    <strong>角色卡</strong></font>。
+            </li><br>
+            <li> 每进行<font class="updateContentM"><strong>100</strong></font>次补给必出一张<font class="updateContentM">
+                    <strong>S角色卡</strong></font>。可继承。
+            </li><br>
+                   
+            <h3 class="updateContent2"><a name="精准补给" class="md-header-anchor"></a> 精准补给 </h3>
+            <figure>
+                <table class="updateContent1">
+                        <thead>
+                                <tr>
+                            <th>
+                                <font class="updateContentM"><strong>项目</strong></font>
+                            </th>
+                            <th>
+                                <font class="updateContentM"><strong>绝对概率</strong></font>
+                            </th>
+                                   
+                        </tr>
+                            </thead>
+                        <tbody>
+                                <tr>
+                            <td> 特殊装备（UP） </td>
+                            <td> 7.5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 特殊装备（非UP） </td>
+                            <td> 7.5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 普通装备 </td>
+                            <td> 25% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 回复1点体力 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸两张牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的锦囊牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的基本牌 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸一张牌 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 手牌上限+1 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 300水晶 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                            </tbody>
+                </table class="updateContent1">
+                       
+            </figure>
+            保底明细：
+            <li> 每进行<font class="updateContentM"><strong>10</strong></font>次补给必出一件<font class="updateContentM">
+                    <strong>装备</strong></font>。
+            </li><br>
+            <li> 每进行<font class="updateContentM"><strong>50</strong></font>次补给必出<font class="updateContentM">
+                    <strong>当期UP的特殊装备</strong></font>。
+            </li><br>
+                   
+            卡池规则：
+            <li> 游戏开始时，系统使用<font class="updateContentM"><strong>扩展面板</strong></font>中选中的装备作为当期UP。除此以外的装备视为<font
+                    class="updateContentM"><strong>非UP</strong></font>。
+            </li><br>
+            <h3 class="updateContent2"><a name="扩充补给" class="md-header-anchor"></a> 扩充补给 </h3>
+            <figure>
+                <table class="updateContent1">
+                        <thead>
+                                <tr>
+                            <th>
+                                <font class="updateContentM"><strong>项目</strong></font>
+                            </th>
+                            <th>
+                                <font class="updateContentM"><strong>绝对概率</strong></font>
+                            </th>
+                                   
+                        </tr>
+                            </thead>
+                        <tbody>
+                                <tr>
+                            <td> S角色卡（UP） </td>
+                            <td> 3% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> A角色卡 </td>
+                            <td> 27% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 回复1点体力 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸两张牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的锦囊牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的基本牌 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸一张牌 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 手牌上限+1 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 300水晶 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                            </tbody>
+                </table class="updateContent1">
+                       
+            </figure>
+            保底明细：
+            <li> 每进行<font class="updateContentM"><strong>10</strong></font>次补给必出一张<font class="updateContentM">
+                    <strong>角色卡</strong></font>。
+            </li><br>
+            <li> 每进行<font class="updateContentM"><strong>100</strong></font>次补给必出一张<font class="updateContentM">
+                    <strong>当期UP的S角色卡</strong></font>。可继承。
+            </li><br>
+            卡池规则：
+            <li> 游戏开始时，系统使用<font class="updateContentM"><strong>扩展面板</strong></font>中选中的角色作为当期UP。除此以外的S级角色视为<font
+                    class="updateContentM"><strong>非UP</strong></font>。
+            </li><br>
+                   
+            <h3 class="updateContent2"><a name="火力补给" class="md-header-anchor"></a> 火力补给 </h3>
+                    <figure>
+                <table class="updateContent1">
+                        <thead>
+                                <tr>
+                            <th>
+                                <font class="updateContentM"><strong>项目</strong></font>
+                            </th>
+                            <th>
+                                <font class="updateContentM"><strong>绝对概率</strong></font>
+                            </th>
+                                   
+                        </tr>
+                            </thead>
+                        <tbody>
+                                <tr>
+                            <td> 额外特殊武器（UP） </td>
+                            <td> 2% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 特殊装备（UP） </td>
+                            <td> 8% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 普通装备 </td>
+                            <td> 20% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 回复1点体力 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸两张牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的锦囊牌 </td>
+                            <td> 5% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 获得一张额外的基本牌 </td>
+                            <td> 10% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 摸一张牌 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 手牌上限+1 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                                <tr>
+                            <td> 300水晶 </td>
+                            <td> 15% </td>
+                                   
+                        </tr>
+                            </tbody>
+                </table class="updateContent1">
+                       
+            </figure>
+            保底明细：
+            <li> 每进行<font class="updateContentM"><strong>10</strong></font>次补给必出一件<font class="updateContentM">
+                    <strong>装备</strong></font>。
+            </li><br>
+            <li> 每进行<font class="updateContentM"><strong>50</strong></font>次补给必出一件<font class="updateContentM">
+                    <strong>UP的额外特殊装备</strong></font>。
+            </li><br>
+            卡池规则：
+            <li> 游戏开始时，系统使用<font class="updateContentM"><strong>扩展面板</strong></font>中选中的装备作为当期UP（UP内容同精准补给），同时玩家自选一把武器作为
+                <font class="updateContentM"><strong>额外UP的特殊装备</strong></font>（双UP）。
+            </li><br>
+            <li> 可被选作UP的额外特殊武器将<font class="updateContentM"><strong>不能通过除“火力补给”以外</strong></font>的方式进入游戏。 </li><br>
+            <li> 获得UP的额外特殊武器时，将不尝试从牌堆中检索，而是<font class="updateContentM"><strong>直接加入手牌</strong></font>。 </li><br>
+                   
+                   
+        </details>
+        <h1 class="updateContent1"><a name="补给稀有内容一览" class="md-header-anchor"></a> 补给稀有内容一览 </h1>
+        <details>
+            <summary>查看详细内容</summary>
+                   <h3 class="updateContent2"><a name="s角色cc）" class="md-header-anchor"></a> S角色（CC） </h3>
+
+            <li> 【琪亚娜】： 薪炎之律者 </li><br>
+            <li> 【芽衣】： 雷之律者 </li><br>
+            <li> 【布洛妮娅】：理之律者 </li><br>
+            <li> 【姬子】： 血色玫瑰 </li><br>
+            <li> 【德丽莎】： 月煌 </li><br>
+            <li> 【八重樱】： 夜隐重霞 </li><br>
+            <li> 【符华】： 识之律者，云墨丹心 </li><br>
+            <li> 【卡莲】： 原罪猎人 </li><br>
+            <li> 【丽塔】： 苍骑士·月魂 </li><br>
+            <li> 【可可利亚孤儿院】：幻海梦蝶 </li><br>
+            <li> 【幽兰戴尔】：（暂无） </li><br>
+                   
+                   <h3 class="updateContent2"><a name="s角色sc）" class="md-header-anchor"></a> S角色（SC） </h3>
+
+            <li> 【天命骑士】：远东的圣骑士（卡莲） </li><br>
+            <li> 【原创之魂】：天命威仪（奥托），天命之刃（长光） </li><br>
+            <li> 【神州英灵】：（暂无） </li><br>
+            <li> 【战国幕府】：（暂无） </li><br>
+            <li> 【欧陆风云】：（暂无） </li><br>
+            <li> 【科学革命】：（暂无） </li><br>
+            <li> 【恣意文豪】：（暂无） </li><br>
+            <li> 【淌彩流音】：（暂无） </li><br>
+            <li> 【布衣贤勇】：（暂无） </li><br>
+            <li> 【栩栩如生】：（暂无） </li><br>
+            <li> 【神州折剑】：至上圣明仙人（符华） </li><br>
+                   
+                   <h3 class="updateContent2"><a name="s角色ex）" class="md-header-anchor"></a> S角色（EX） </h3>
+
+            <li> 【小道将军】：小道型带将军，非酋型带将军，熬夜型带将军，健忘型带将军，扭曲型带将军 </li><br>
+            <li> 【活动圣痕】：（暂无） </li><br>
+            <li> 【崩坏宇宙】：（暂无） </li><br>
+            <li> 【逐火之蛾】：英雄（凯文），无暇（爱丽希雅），戒律（阿波尼亚），歌者（伊甸），愚人（维尔薇），狂王（千劫），觉者（苏），落樱（樱），少年（科斯魔），无限（梅比乌斯），画家（格蕾修），战士（华），凡人（帕朵菲利斯）
+            </li><br>
+            <li> 【噬身之蛇】：（暂无） </li><br>
+            <li> 【崩坏学园】：（暂无） </li><br>
+            <li> 【七宗罪】： （暂无） </li><br>
+            <li> 【适格者】： （暂无） </li><br>
+            <li> 【记忆战场】：（暂无） </li><br>
+            <li> 【后崩坏书】：（暂无） </li><br>
+                   
+                   <h3 class="updateContent2"><a name="稀有装备" class="md-header-anchor"></a> 稀有装备 </h3>
+
+            <li> 第一神之键：【虚空万藏】 </li><br>
+            <li> 第二神之键：【千界一乘】（未实装） </li><br>
+            <li> 第三神之键：【涤罪七雷 鸣】 </li><br>
+            <li> 第四神之键：【null】 </li><br>
+            <li> 第五神之键：【null】 </li><br>
+            <li> 第六神之键：【黑渊】【白花】【黑渊白花】 </li><br>
+            <li> 第七神之键：【天火圣裁】【天火大剑】【劫灭】 </li><br>
+            <li> 第八神之键：【羽渡尘】（未实装），【凡尘难渡】（未实装） </li><br>
+            <li> 第九神之键：【伊甸双星】【伊甸之星】 </li><br>
+            <li> 第十神之键：【轩辕剑】（未实装），【太虚之握】（未实装） </li><br>
+            <li> 第十一神之键：【犹大的誓约】（未实装），【樱花的誓约】（未实装） </li><br>
+            <li> 第十二神之键：【地藏御魂】 </li><br>
+            <li> 标准版装备：【诸葛弩】【贯石斧】【姨妈阵】【王八盾】 </li><br>
+            <li> 军争篇装备：【宝刀】【神の头盔】【寿衣】【木牛牛马】 </li><br>
+                   
+                   <h3 class="updateContent2"><a name="ex稀有武器" class="md-header-anchor"></a> EX稀有武器 </h3>
+
+            <li> 三圣剑：【黄金之刃 咎瓦尤斯】【不灭之刃 幽兰戴尔】【慈悲之刃 卡提那】 </li><br>
+            <li> 专属装备：【克利希娜】 </li><br>
+    </div>
+</body>
+       

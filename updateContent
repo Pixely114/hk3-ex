@@ -1,0 +1,728 @@
+<div>
+<h1 class=updateContent1>v1.3.0更新日志 2023/12/8</h1>
+<details>
+<summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3>
+<p class=updateContent1>
+调整<font class=updateContentM>【石川右卫门】</font>的技能组，链祸，启动；
+重做<font class=updateContentM>【女武神·游侠】</font>的技能组，这一击，贯穿血条；
+调整<font class=updateContentM>【阿拉丁】</font>的技能<font class=updateContentS>神灯</font>ai选取技能的策略，使其更偏向于实用；
+调整<font class=updateContentV>护盾系统</font>的自然衰减量至少为1；
+重做<font class=updateContentM>【领域装·白练】</font>的技能<font class=updateContentS>枪斗</font>；
+重做<font class=updateContentM>【脉冲装·绯红】</font>的技能<font class=updateContentS>天照</font>；
+重做<font class=updateContentM>【女武神·战车】</font>的技能组，并调整为4体力上限；
+</p>
+<h3 class=updateContent1>—————修复——————————————————————————————</h3>
+<p class=updateContent1>
+修复<font class=updateContentM>【女武神·荣光】</font>的技能<font class=updateContentS>棐业</font>在某些错误的条件下可以使命成功的bug；
+修复<font class=updateContentM>【夜隐重霞】</font>的技能<font class=updateContentS>外道</font>在因体力上限减少导致的体力值变化时无法触发的bug；
+修复<font class=updateContentM>【夜隐重霞】</font>的技能<font class=updateContentS>忍者</font>使用的刺【杀】仍会受到距离限制的bug；
+修复<font class=updateContentM>【空之律者】</font>的技能<font class=updateContentS>虚界</font>导致出现NaN伤害的bug；
+修复<font class=updateContentM>【战场疾风】</font>技能描述未适配新版技能组的bug；
+修复<font class=updateContentM>【芥川龙之介】</font>的技能<font class=updateContentS>罗生</font>的ai仅锁定一个对象发动的策略bug；
+修复<font class=updateContentM>【古斯塔夫】</font>的技能<font class=updateContentS>金鱼</font>在拿牌时全部抢走的bug；
+修复<font class=updateContentM>【石川右卫门】</font>的技能<font class=updateContentS>壮义</font>效果与描述不一致的bug；
+修复<font class=updateContentM>【神恩颂歌】</font>的技能<font class=updateContentS>沐恩</font>效果与描述不一致的bug；
+</p>
+<h3 class=updateContent1>—————新增——————————————————————————————</h3>
+<p class=updateContent1>
+新增<font class=updateContentV>淌彩流音</font>包角色<font class=updateContentM>【贝多芬】</font>，扼住命运咽喉之人，以坚定的意志登临乐圣之境；
+记忆战场本期boss：海姆达尔，苍骑士·月魂，识之律者；
+</p>
+</details>
+<hr>
+
+<h1 class=updateContent1>v1.2.9更新日志 2023/9/27</h1>
+        <details>
+            <summary>更新日志内容</summary>
+            <h3 class=updateContent1>—————优化——————————————————————————————</h3>
+            <p class=updateContent1>
+调整<font class=updateContentM>【樱火轮舞】</font>以适应重做后的技能<font class=updateContentS>绯樱</font>；
+重做<font class=updateContentM>【战场疾风】</font>的技能组，使其更能表现大剑的压迫感；
+重做<font class=updateContentM>【真红骑士·月蚀】</font>的技能组，姬子阿姐的传承再更新，这团火焰将会烧尽一切，照亮前行的路；
+重做<font class=updateContentM>【女武神·荣光】</font>的技能组，堂堂正正的对决吧；
+优化<font class=updateContentM>【罗兰】</font>的技能<font class=updateContentS>魂守</font>的表现效果，避免分不清该技能具体选择的效果分支；
+            </p>
+            <h3 class=updateContent1>—————修复——————————————————————————————</h3>
+            <p class=updateContent1>
+修复因<font class=updateContentC>【调虎离山】</font>实现更新而导致<font class=updateContentM>【朔夜观星】</font>的技能<font class=updateContentS>星阵</font>的调离效果持续生效bug；
+            </p>
+            <h3 class=updateContent1>—————新增——————————————————————————————</h3>
+            <p class=updateContent1>
+新增<font class=updateContentV>琪亚娜</font>包角色<font class=updateContentM>【终焉之律者】</font>，终末的旅途自此开始，也终将在此结束；
+新增<font class=updateContentV>休伯利安一家人</font>包角色<font class=updateContentM>【爱衣·休伯利安】</font>，时间之外的生命降临于此间；
+记忆战场本期boss：海姆达尔，苍骑士·月魂，识之律者；
+            </p>
+        </details>
+        <hr>
+
+<h1 class=updateContent1>v1.2.8更新日志 2023/7/15</h1>
+<details>
+<summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3>
+<p class=updateContent1>
+重做<font class=updateContentM>【逆神巫女】</font>的技能组，让<font class=updateContentS>绯樱</font>更易于触发，且<font class=updateContentS>刃反</font>的连段表现上更为自然；
+重做<font class=updateContentM>【夜隐重霞】</font>的技能组，<font class=updateContentS>忍者</font>可以在保底双刀与保护自身中自由选择，<font class=updateContentS>外道</font>则以自由组合的方式来支配体力值手牌数与体力上限的变化；
+</p>
+<h3 class=updateContent1>—————修复——————————————————————————————</h3>
+<p class=updateContent1>
+修复<font class=updateContentC>【屏障】</font>ai使用时机的错误数值；
+</p>
+<h3 class=updateContent1>—————新增——————————————————————————————</h3>
+<p class=updateContent1>
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【英侠伴侣·苏莎娜】</font>，饼饼饼饼饼将军，比比看谁杀杀杀杀杀敌更多；
+新增<font class=updateContentV>布洛妮娅</font>包角色<font class=updateContentM>【真·理之律者·真理之律者】</font>，无限延伸的转换技，无限可能；
+新增角色包<font class=updateContentV>休伯利安一家人</font>，主要包括仅存在单个的实机角色；
+新增<font class=updateContentV>休伯利安一家人</font>包角色<font class=updateContentM>【女武神·热砂】</font>，歌王？我舞王苏莎娜定叫他有来无回；
+新增卡牌<font class=updateContentC>【加速劵】</font>，<font class=updateContentV>护盾体系</font>下的普通锦囊，让护盾能更灵活更主动的转化为牌资源，也能用于破坏敌方的护盾体系；
+记忆战场本期boss：海姆达尔，苍骑士·月魂，识之律者；
+</p>
+</details>
+<hr>
+
+<h1 class=updateContent1>v1.2.7更新日志 2023/5/25</h1>
+<details>
+<summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3>
+<p class=updateContent1>
+针对<font class=updateContentV>补给系统</font>的需求增加了跳过补给动画的功能设置；
+重做<font class=updateContentM>【小人国公主·列文虎克】</font>的技能组，听话，让我康康；
+调整<font class=updateContentM>【待绽的冰花·缇米朵】</font>的技能<font class=updateContentS>翩然</font>和<font class=updateContentS>冰点</font>的发动时机先后，以优化其体验；
+调整<font class=updateContentV>护盾</font>机制的衰减量，现自然衰减量为当前护盾量的一半（向下取整）；
+</p>
+<h3 class=updateContent1>—————修复——————————————————————————————</h3>
+<p class=updateContent1>
+修复<font class=updateContentM>【失落迷迭】</font>的技能<font class=updateContentS>役灵</font>在ai使用时无法正确分配伤害给敌方的bug；
+修复<font class=updateContentM>【云墨丹心】</font>的技能<font class=updateContentS>仙法</font>在没有对应技能组时会报错的bug；
+尝试修复<font class=updateContentV>补给系统</font>抽卡的设置目标为空导致的各类bug；            
+</p>
+<h3 class=updateContent1>—————新增——————————————————————————————</h3>
+<p class=updateContent1>
+新增<font class=updateContentV>栩栩如生</font>包角色<font class=updateContentM>【神灯·阿拉丁】</font>，快来许愿吧，你可以许下三个愿望哦；
+新增<font class=updateContentV>科学革命</font>包角色<font class=updateContentM>【宇宙开拓者·哈勃】</font>，听话，让我康康喜加一；
+记忆战场本期boss：海姆达尔，苍骑士·月魂，识之律者；
+</p>
+</details>
+<hr>
+
+<h1 class=updateContent1>v1.2.6更新日志 2023/3/25</h1>
+<details>
+<summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3>
+<p class=updateContent1>
+优化<font class=updateContentM>【瓦尔特】</font>的技能<font class=updateContentS>盟主</font>的发动显示；
+调整<font class=updateContentM>【西琳】</font>的技能组，通过修改<font class=updateContentS>灾耀</font>、<font class=updateContentS>征服</font>以及<font class=updateContentS>渴望</font>并调整体力上限与初始体力值来使其适应当前环境；
+优化<font class=updateContentM>【西琳】</font>的技能<font class=updateContentS>亚空</font>的标记显示与释放方式；
+修改部分<font class=updateContentV>SP机制</font>调整后仍存在的旧技能描述文案；
+调整技能<font class=updateContentS>大奖</font>，为其增加了上限，达到上限再次获得判定牌时须先弃置一张再执行后续操作，以防止过多的牌被滞留在游戏外；
+调整<font class=updateContentC>【伊甸双星】</font>的<font class=updateContentS>重构</font>条件，将阈值3点伤害下调为2点，以提高其重构牌<font class=updateContentC>【伊甸之星】</font>出现在游戏中的概率；                
+</p>
+<h3 class=updateContent1>—————修复——————————————————————————————</h3>
+<p class=updateContent1>
+修复<font class=updateContentM>【丹朱】</font>的技能<font class=updateContentS>操练</font>可以在使用无目标牌时触发的bug；
+修复<font class=updateContentM>【影铁】</font>的技能<font class=updateContentS>刈命</font>可以对已死亡角色发动的bug；
+修复<font class=updateContentM>【张衡】</font>的技能<font class=updateContentS>地动</font>效果与描述不一致的bug；
+修复<font class=updateContentM>【坂本龙马】</font>的技能<font class=updateContentS>北辰</font>在仅于非出牌阶段使用杀后无法正确重置的bug；
+修复<font class=updateContentC>【屏障】</font>在同时对多个目标使用时结算错误的bug；
+修复<font class=updateContentM>【奥托】</font>的技能<font class=updateContentS>伪念</font>在被护盾抵消伤害后后续结算失效的bug；
+修复ai会对无牌目标发动<font class=updateContentC>【伊甸双星】</font>的技能的bug；     
+</p>
+<h3 class=updateContent1>—————新增——————————————————————————————</h3>
+<p class=updateContent1>
+新增<font class=updateContentV>丽塔</font>包角色<font class=updateContentM>【冥府魔女·失落迷迭】</font>，强收保护费的乐子人不请自来；
+新增<font class=updateContentV>神州英灵</font>包角色<font class=updateContentM>【明妃·王昭君】</font>，集放权与放逐一体的立牧能手参上；
+新增<font class=updateContentV>淌彩流音</font>包角色<font class=updateContentM>【冬日旋律·柴可夫斯基】</font>，交响不息，源源不绝；
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【逆熵的枭雄·可可利亚】</font>，逆熵的枭雄？逆熵的黑锅罢了；
+新增<font class=updateContentM>【失落迷迭】</font>全技能语音；
+新增<font class=updateContentV>护盾机制</font>相关语音；
+记忆战场本期boss：海姆达尔，苍骑士·月魂，识之律者；
+</p>
+</details>
+<hr>
+
+<h1 class=updateContent1>v1.2.5更新日志 2023/1/19</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化<font class=updateContentM>【鬼铠】</font>的技能<font class=updateContentS>青雷</font>的发动显示；
+优化通用技能<font class=updateContentS>斠剑</font>的主动发动ai；
+加强<font class=updateContentM>【诺贝尔】</font>的技能<font class=updateContentS>爆破</font>和<font class=updateContentS>大奖</font>，强化了其即时收益并降低了失败概率；
+调整<font class=updateContentM>【梅比乌斯】</font>的初始体力值为3；
+优化<font class=updateContentM>【德古拉】</font>的技能<font class=updateContentS>眷族</font>的发动ai；
+优化<font class=updateContentM>【云墨丹心】</font>的技能<font class=updateContentS>仙法</font>的发动表现效果；
+提高<font class=updateContentM>【丹朱】</font>的技能<font class=updateContentS>魔偶</font>的ai发动优先级；
+重做<font class=updateContentM>【女武神·迅羽】</font>，尝试用技能组复刻当年迅羽の奇迹；
+重做<font class=updateContentM>【驱动装·山吹】</font>，护盾体系基石角色之一；
+重做<font class=updateContentM>【彗星驱动】</font>，护盾体系基石角色之一；
+调整<font class=updateContentM>【达尔文】</font>的技能体系，增加技能<font class=updateContentS>突变</font>，适当加快了其在两轮内发动一次技能的速度；
+调整<font class=updateContentM>【雪地狙击】</font>的技能<font class=updateContentS>狙击</font>，防止其对濒死结算进行插入结算；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复<font class=updateContentM>【亚当】</font>的ai在判断是否发动<font class=updateContentS>燃能</font>时报错的bug；
+修复<font class=updateContentM>【爱莉希雅】</font>的技能<font class=updateContentS>真我</font>描述与效果不一致的bug；
+修复卡牌<font class=updateContentM>【补给包】</font>在对其他角色使用时仍会对操作者生效的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增部分角色<font class=updateContentV>阵亡语音</font>；
+新增<font class=updateContentV>护盾体系</font>；
+新增<font class=updateContentV>天命骑士</font>包角色<font class=updateContentM>【医院骑士·薇欧拉】</font>，虽然是3血卖血将...但是...等会怎么变成7血了；
+新增<font class=updateContentV>后崩坏书</font>包角色<font class=updateContentM>【最佳第四人·莱尔】</font>，猜猜看我这一枪是要打谁；
+新增<font class=updateContentV>后崩坏书</font>包角色<font class=updateContentM>【狂怒巨锤·卡罗尔】</font>，这一拳好些没给我护盾踹开线；
+新增<font class=updateContentV>天命骑士</font>包角色<font class=updateContentM>【神圣骑士·罗兰】</font>，不杀了我罗兰今天别想走辣；
+新增<font class=updateContentV>护盾体系</font>卡牌<font class=updateContentC>【屏障】</font>，叠甲过的好日子要来力；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.2.4更新日志 2023/1/1</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+规范通用技能<font class=updateContentS>斠剑</font>的描述；
+重做<font class=updateContentM>【远东的圣骑士·卡莲】</font>，将技能<font class=updateContentS>天谕</font>改为使命技的机制，且不再作为主公技；
+重做<font class=updateContentM>【真红骑士·月蚀】</font>，将技能组重做为以燃烧自己为核心的姬子阿姐；
+优化所有角色退出<font class=updateContentV>爆发状态</font>时的记录显示；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+NULL
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>德莉莎</font>包角色<font class=updateContentM>【处刑装·紫苑】</font>，极东魔窟招生啦，有意者速来；
+新增<font class=updateContentV>后崩坏书</font>包角色<font class=updateContentM>【待绽的冰花·缇米朵】</font>，奔战万里，袭关斩将；
+新增<font class=updateContentV>后崩坏书</font>包角色<font class=updateContentM>【爷·亚当】</font>，我将发动一次nb的攻击（火系大剑.jpg）；
+新增<font class=updateContentV>后崩坏书</font>包角色<font class=updateContentM>【翀云雷影·雷电芽衣】</font>，若敢来饭必叫你大饱而归；
+新增<font class=updateContentM>【缇米朵】</font>、<font class=updateContentM>【亚当】</font>、<font class=updateContentM>【雷电芽衣】</font>全技能语音；
+新增部分角色阵亡语音；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.2.3更新日志 2022/12/12</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+规范并统一了<font class=updateContentV>SP</font>机制的实现，并调整了所有相关技能的实现；
+优化了<font class=updateContentV>SP</font>与<font class=updateContentV>爆发状态</font>的显示与记录；
+调整<font class=updateContentM>【里纳尔多】</font>的技能<font class=updateContentS>杀击</font>，加强了其收益能力；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复<font class=updateContentM>【帕朵菲莉丝】</font>的技能<font class=updateContentS>零售</font>被人机无限触发的bug；
+修复<font class=updateContentM>【Ezie】</font>的技能<font class=updateContentS>奇遇</font>抽到冲儿必定过劫的bug；
+修复<font class=updateContentC>【虚空万藏】</font>在同时装备多个进行重构时无法正确重构的问题；
+修复<font class=updateContentM>【长光】</font>在人机使用时不会发动技能<font class=updateContentS>附魔</font>的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentM>【玉骑士·月痕】</font>全技能语音；
+新增<font class=updateContentV>幽兰戴尔</font>包角色<font class=updateContentM>【不灭星锚】</font>，星位13，可挽狂澜；
+新增<font class=updateContentV>丽塔</font>包角色<font class=updateContentM>【缭乱星棘】</font>，会设伏的饼将军比比看谁摸牌更多；
+新增<font class=updateContentV>栩栩如生</font>包角色<font class=updateContentM>【猫神·芭斯特】</font>，会奶人的sp猫娘；
+扩展文件夹新增文件“extension_link.js”，联机使用本扩展前请使用该文件重命名覆盖“extension.js”文件以防止部分角色无法正常使用（提前备份原文件）；
+新增<font class=updateContentV>补给系统</font>，具体说明与设置请详见扩展面板，在无名杀也能抽卡辣；
+新增<font class=updateContentV>补给系统</font>额外特殊装备三圣剑：<font class=updateContentC>【黄金之刃·咎瓦尤斯】</font>、<font class=updateContentC>【不灭之刃·幽兰戴尔】</font>、<font class=updateContentC>【慈悲之刃·卡提那】</font>；
+新增基本牌<font class=updateContentC>【补给包】</font>，SP的体系的新卡牌；
+新增<font class=updateContentM>【缭乱星棘】</font>、<font class=updateContentM>【不灭星锚】</font>全技能语音；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.2.2更新日志 2022/11/10                                                                                     </h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化<font class=updateContentM>【查理曼】</font>的技能<font class=updateContentS>武统</font>的实现方式使之与<font class=updateContentS>皇庭</font>一致；
+重做<font class=updateContentM>【真炎幸魂】</font>的技能组<font class=updateContentS>血樱</font>和<font class=updateContentS>杀生</font>，现技能组为多刀过牌；
+调整<font class=updateContentM>【天元骑英】</font>的技能<font class=updateContentS>征程</font>，将其中“弃置”改为“弃置后摸一张牌”；
+重做<font class=updateContentM>【战场疾风】</font>的技能组<font class=updateContentS>突击</font>和<font class=updateContentS>压倒</font>，现技能组为多刀拆迁；
+调整<font class=updateContentM>【黑渊】</font>技能限制为“使用<font class=updateContentC>【杀】</font>造成伤害”；
+调整<font class=updateContentM>【芝诺】</font>的技能<font class=updateContentS>不及</font>的效果为“此牌对你无效”；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复<font class=updateContentM>【开普勒】</font>死亡后因<font class=updateContentS>轨道</font>技能产生报错的bug；
+修复来自<font class=updateContentC>【崩坏爆发】</font>的未知触发原因的报错bug；
+修复<font class=updateContentM>【鬼铠】</font>的技能<font class=updateContentS>青雷</font>的技能ai以及放弃选择目标后报错的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增E带将军<font class=updateContentM>【Ezie】</font>卡面人工智障版；
+新增<font class=updateContentV>德莉莎</font>包角色<font class=updateContentM>【圣贤王·朔夜观星】</font>，时代的大数学家喜加一，就是有点打牌满天飞；
+新增<font class=updateContentV>噬身之蛇</font>包角色<font class=updateContentM>【胡狼·克利欧】</font>，治病？爷最会治病了；
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【永远的教官·拉格纳】</font>，作恶多端滴坏女人；
+新增角色包<font class=updateContentV>神州折剑</font>；
+新增<font class=updateContentV>神州折剑</font>包角色<font class=updateContentM>【玉骑士·月痕】</font>，飞剑人李奶奶参见；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+
+<h1 class=updateContent1>v1.2.1更新日志 2022/10/12</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【陈天武】</font>的技能组“泉杖”和“追芳”的ai；
+优化了其他角色选择“惩恶”选项时的ai；
+强化了<font class=updateContentM>【丹朱】</font>的技能组“魔偶”、“操练”，使其更适应现在的环境；
+小道型带将军<font class=updateContentM>【Ezie】</font>新增效果：主动走小道概率不会mad；
+重做了技能“血印”，改为看天吃饭与魔将狂喜；
+优化了部分改变目标的技能在十周年UI下的表现；
+重写了<font class=updateContentM>【原罪猎人】</font>的技能组“原罪”、“暗裔”、“追猎”的实现方式；
+优化了部分SP相关技能的表现与ai；
+优化了主公技“天谕”的ai；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【陈天武】</font>的技能“泉杖”对无牌目标使用会报错的bug；
+修复了<font class=updateContentM>【王贞仪】</font>的技能“月解”在参与无牌来源的伤害时报错的bug；
+修复了在仅有一张牌时使用<font class=updateContentC>【小道消息】</font>产生的不给牌bug；
+修复了<font class=updateContentM>【鬼铠】</font>一直命名为<font class=updateContentM>【鬼凯】</font>的文案错误；
+重写了<font class=updateContentM>【开普勒】</font>的技能“轨道”的实现方式，并修复了因此产生的bug；
+修复了<font class=updateContentM>【奥托】</font>的技能“迍穷”在手中无<font class=updateContentC>【新药】</font>时也会询问的bug；
+修复了<font class=updateContentM>【卡莲】</font>的技能“东征”效果与描述不一致的bug；
+修复了<font class=updateContentM>【佐罗】</font>的技能“游侠”描述与效果不一致的bug；
+修复了唐唐河豚没有技能“律者”的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【澄江堂主人·芥川龙之介】</font>，将军不走小道怎么能听到小道消息捏；
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【天命之刃·长光】</font>，快来强化装备吧，+15大刀点击就送；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.2.0更新日志 2022/10/1</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+重做了<font class=updateContentM>【融合装·深红】</font>的技能组“融核”，新增技能“雷刃”，变多刀为烧血多伤；
+全面优化更新了<font class=updateContentM>【小道型带将军·Ezie】</font>的技能池与表现形式，欢迎前来小道进行体验；
+优化了<font class=updateContentM>【德古拉】</font>的技能“眷族”的ai，避免其对满血队友使用；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【露西亚】</font>的技能“秩序”在对无牌目标弃牌后可发动且报错的bug；
+修复了“乐土”在选择摸牌后会错误回血的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【大帝·叶卡捷琳娜】</font>，你的装备很好，下一秒就没了；
+新增<font class=updateContentV>神州英灵</font>包角色<font class=updateContentM>【芳岁望星·王贞仪】</font>，时代的回收站；
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【冰之律者·安娜】</font>，还是看看远处的月魄吧家人们；
+新增<font class=updateContentV>噬身之蛇</font>包角色<font class=updateContentM>【夜枭·陈天武】</font>，时代的舔狗降临了；
+新增关于<font class=updateContentM>【安娜】</font>和<font class=updateContentM>【陈天武】</font>的彩蛋一个，具体触发方式请自行探索；
+新增了卡牌<font class=updateContentC>【虚空万藏】</font>的卡面；
+新增了全角色完整介绍界面；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.9更新日志 2022/9/13</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+调整了<font class=updateContentM>【鬼铠】</font>的技能组“青雷”和“龙鸣”，使其更趋近于适应当前环境的强度；
+调整了<font class=updateContentM>【月下初拥】</font>的技能组“初拥”和“眷属”，历经多次改版，眷属的设计算是个问题了；
+调整了<font class=updateContentM>【坂本龙马】</font>的技能“八策”以更好地配合队友与技能“北辰”；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了“青雷”可以对已死亡的角色发动的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【鲜血亲王·德古拉】</font>，回血嫖牌的血族亲王；
+重置角色<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【天命主教·奥托】</font>，一切都是破石头门的选择；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.8更新日志 2022/9/3</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+重写了<font class=updateContentM>【诺贝尔】</font>的牌上牌技能实现方式；
+优化了<font class=updateContentM>【迷城骇兔】</font>的技能“骇入”的实现方式；
+优化了技能“佣兵”的ai，人机终于会用这个技能辣；
+优化了<font class=updateContentM>【神恩颂歌】</font>的技能“沐恩”的获得牌表现；
+调整了技能“构造”，增加了其每回合同一牌名仅可使用一次的限制；
+优化了<font class=updateContentM>【健忘型带将军·无冕黎明】</font>的技能“趁早”的实现方式；
+略微下调了<font class=updateContentM>【科斯魔】</font>的嘲讽，实装了<font class=updateContentM>【梅比乌斯】</font>、<font class=updateContentM>【斯科特】</font>的嘲讽；
+优化了<font class=updateContentM>【斯科特】</font>、<font class=updateContentM>【皮里】</font>对特殊属性伤害的ai；
+调整了<font class=updateContentM>【小道消息】</font>的传递牌选择ai；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【非酋型带将军·汐】</font>的技能“大同”在成功完成使命时的bug；
+修复了<font class=updateContentM>【帕朵菲莉丝】</font>在商店没牌的情况下可以成为“零售”的合法目标的bug；
+修复了<font class=updateContentM>【迷城骇兔】</font>的技能“投影”分支“碎骨兔”效果与描述不一致的bug；
+修复了<font class=updateContentM>【格蕾修】</font>在使用<font class=updateContentC>【画卷·科斯魔】</font>以后准备阶段“旭光”产生的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>淌彩流音</font>包角色<font class=updateContentM>【诅咒之影·古斯塔夫】</font>，时代的大孙笨来咯；
+新增<font class=updateContentV>带将军</font>包角色<font class=updateContentM>【扭曲型带将军·曲率引擎】</font>，奇怪的用牌方式增加了；
+新增<font class=updateContentV>科学革命</font>包角色<font class=updateContentM>【自然分类者·林奈】</font>，同心同德，救困扶危；
+新增<font class=updateContentV>幽兰戴尔</font>包角色<font class=updateContentM>【二律背反·天元骑英】</font>，此乃完成使命的缝合天鹅；
+新增<font class=updateContentM>【天元骑英】</font>全技能语音；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.7更新日志 2022/8/19</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【云墨丹心】</font>技能“仙法”的ai发动优先级；
+添加了菲利斯商店的取消机制，防止不买东西逛半天的人机烧条行为；
+优化了<font class=updateContentM>【小道消息】</font>的传递机制，防止无牌产生的bug；
+优化了<font class=updateContentM>【云墨丹心】</font>的技能“晦明”的显示；
+采用了全新的卡面，覆盖范围为全角色；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【屠格涅夫】</font>回复体力至1点后无法触发技能“前夜”的bug；
+修复了<font class=updateContentM>【云墨丹心】</font>使用延时锦囊牌无法正确触发技能“晦明”的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>布衣贤勇</font>包角色<font class=updateContentM>【南极英魂·斯科特】</font>，一点就爆炸药桶来力；
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【填海壮志·精卫】</font>，超级过牌的火攻王；
+新增<font class=updateContentV>科学革命</font>包角色<font class=updateContentM>【骑犬的巨人·达尔文】</font>，白板制造机.jpg；
+新增<font class=updateContentV>符华</font>包角色<font class=updateContentM>【物理战神·白夜执事】</font>，物理战神归来准备冲死主公；
+新增<font class=updateContentV>布衣贤勇</font>包角色<font class=updateContentM>【北极征服者·皮里】</font>，废除手牌的活来辣；
+新增<font class=updateContentM>【帕朵菲莉丝】</font>、<font class=updateContentM>【爱莉希雅】</font>全技能语音；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.6更新日志 2022/8/7</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+神之键系列卡牌添加了关于“重构”的描述；
+调整了<font class=updateContentM>【破晓强袭】</font>的技能，降低了“闪刃”的获取上限；
+调整了<font class=updateContentM>【破晓强袭】</font>的技能，增加了“流电”使用<font class=updateContentM>【杀】</font>的距离限制；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【云墨丹心】</font>的技能“晦明”在标记已满的情况下仍然会触发的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增卡牌<font class=updateContentM>【吞噬之键·伊甸双星】</font>及其重构卡牌<font class=updateContentM>【伊甸之星】</font>；
+新增<font class=updateContentM>【樱】</font>、<font class=updateContentM>【月魂】</font>全技能语音；
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【批判之笔·狄更斯】</font>，双城记啊双城寄；
+新增<font class=updateContentV>布衣贤勇</font>包角色<font class=updateContentM>【悖论之辩·芝诺】</font>，肉的雅痞的bb哲学家；
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【反抗之枪·屠格涅夫】</font>，这位更是个地主；
+新增<font class=updateContentV>天命骑士</font>包角色<font class=updateContentM>【圣殿骑士·露西亚】</font>，拥有过拆当顺的神技；
+正式上线角色<font class=updateContentM>【爱莉希雅】</font>，时代的对凯文武装来咯；
+新增<font class=updateContentV>战国幕府</font>包角色<font class=updateContentM>【浓姬】</font>，你扩各类黄月英有点多啊；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【帕朵菲莉丝】</font>，猫猫来辣，逐火英桀全员到齐；
+新增<font class=updateContentV>淌彩流音</font>包角色<font class=updateContentM>【帕格尼尼】</font>，诸葛琴魔可敢城头一战；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.5更新日志 2022/7/23</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentC>【创生之键·白花】</font>的ai与技能发动表示；
+调整了<font class=updateContentC>【破坏之键·天火大剑】</font>的技能发动时机；
+调整了部分技能的描述（不影响技能效果）；
+实装了<font class=updateContentM>【苏】</font>的技能“天慧”对点数的影响；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【梅比乌斯】</font>的技能“环蛇”获取sp的bug；
+修复了<font class=updateContentM>【伽利略】</font>的技能“惯性”在遇到神的时候会无限免伤的bug；
+修复了<font class=updateContentM>【诺贝尔】</font>的技能“大奖”在没有牌时会报错的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【孤心浪子·齐格飞】</font>，我将发动一次nb的攻击；
+新增<font class=updateContentV>原创之魂</font>包角色<font class=updateContentM>【无双圣女·塞西莉亚】</font>，参见岳母大人；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【落樱·樱】</font>，刹那一刀，森罗尽断；
+新增<font class=updateContentV>丽塔</font>包角色<font class=updateContentM>【苍骑士·月魂】</font>，苏醒吧，冰箱的主人；
+新增记忆战场boss<font class=updateContentM>【苍骑士·月魂】</font>，塔子姐只怕火伤.jpg；
+新增卡牌<font class=updateContentC>【裁决之键·涤罪七雷·鸣】</font>；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【无暇·爱莉希雅（小）】</font>，技能还差俩先放出来玩玩；
+新增彩蛋一个，请自行探索具体内容和触发条件，相关信息：齐格飞；
+记忆战场本期boss：苍骑士·月魂，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.4更新日志 2022/7/18</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【千劫】</font>的技能“异知”的发动条件与方式；
+优化了<font class=updateContentM>【云墨丹心】</font>的技能“折剑”的ai；
+优化了<font class=updateContentM>【影铁】</font>的技能“刈命”的ai；
+实装了“伤痕”、“旭光”、“噬魔”的嘲讽值；
+调整了<font class=updateContentM>【影铁】</font>的技能“刈命”的发动条件防止其收益过高；
+优化了<font class=updateContentC>【黑渊白花】</font>状态下技能“白花”的ai；
+调整了<font class=updateContentM>【夜隐重霞】</font>的技能“外道”的获取牌，降低了其强度；
+调整维尔薇为4上限；
+调整了<font class=updateContentS>环蛇</font>等和sp相关的技能的初始化逻辑；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【云墨丹心】</font>的技能“折剑”在取消使用时会报错的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【画家·格蕾修】</font>，肉身化身的sp左慈；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【苦修·阿波尼亚】</font>，飞影是好文明，建议人手一个；
+新增<font class=updateContentV>布洛妮娅</font>包角色<font class=updateContentM>【大鸭鸭·次生银翼】</font>，拿着牌堆打架就是爽；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【少年·科斯魔】</font>，苟住就赢的谋黄忠绝赞发育中；
+新增<font class=updateContentM>【维尔薇】</font>、<font class=updateContentM>【格蕾修】</font>、<font class=updateContentM>【阿波尼亚】</font>、<font class=updateContentM>【次生银翼】</font>、<font class=updateContentM>【科斯魔】</font>全技能语音；
+记忆战场本期boss：海姆达尔，空之律者，贝纳勒斯；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.3更新日志 2022/7/6</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+调整了<font class=updateContentM>【真田幸村】</font>的技能“独战”在x为1时的效果；
+优化了<font class=updateContentM>【汉娜】</font>的ai；
+调整了技能“血印”为不能对自己发动；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【佐罗】</font>的技能“惩恶”因属性杀触发连环伤害时与描述不符的bug；
+修复了<font class=updateContentM>【佐罗】</font>的技能“惩恶”在不使用杀时会将效果延续的bug；
+修复了<font class=updateContentM>【夜隐重霞】</font>在技能不全时的出现报错的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>雷电芽衣</font>包角色<font class=updateContentM>【断罪影舞】</font>，时代的界鹦鹉，无脑月读就行；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【维尔薇】</font>，维护栈结构的神香香；
+新增<font class=updateContentV>希儿</font>包角色<font class=updateContentM>【幻海梦蝶】</font>，龙战于野其血玄黄；
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【伊丽莎白】</font>，吸血鬼的盛宴就要开始了；
+新增<font class=updateContentV>神州英灵</font>包角色<font class=updateContentM>【李耳】</font>，此乃时代的转换技之王；
+新增<font class=updateContentV>战国幕府</font>包角色<font class=updateContentM>【石川五右门卫】</font>，打土豪分大户的时代来临力；
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【玛丽 雪莱】</font>，sp神左慈一号出现了；
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【弗兰肯斯坦】</font>，0/0-孙笨，不用觉醒也能完杀；
+新增<font class=updateContentM>【断罪影舞】</font>、<font class=updateContentM>【幻海梦蝶】</font>全技能语音；
+记忆战场本期boss：海姆达尔，空之律者，贝纳勒斯；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.2更新日志 2022/6/25</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+降低了<font class=updateContentM>【雷之律者】</font>技能“挽歌”带来的嘲讽值；
+优化了存在同时机技能的角色发动技能的情况（迅羽，梅比乌斯，斠剑等）；
+优化了<font class=updateContentM>【佐罗】</font>的技能“惩恶”的显示；
+调整了<font class=updateContentM>【迷城骇兔】</font>的技能“骇入”，将其调整为无需弃牌发动；
+调整了<font class=updateContentM>【迷城骇兔】</font>的技能“骇入”的选项ai；
+优化了通用技能“斠剑”的显示与执行逻辑；
+调整了<font class=updateContentM>【战车】</font>的技能“引力”为“对至多3名角色发动”；
+更新了<font class=updateContentM>【战车】</font>的技能“引力”的实现方式与ai；
+再次调整<font class=updateContentM>【爱因斯坦】</font>的技能“光电”的ai；
+更新了<font class=updateContentM>【银狼的黎明】</font>的全技能实现方式；
+优化了<font class=updateContentM>【苏】</font>的技能“恒沙”的发动ai和选择ai；
+优化了<font class=updateContentM>【今样】</font>的技能“霸权”的卖血ai；
+优化了<font class=updateContentM>【薪炎之律者】</font>的技能“薪火”的发动表现；
+调整了<font class=updateContentM>【薪炎之律者】</font>的技能“薪火”的效果删去了“杀死角色后的效果”；
+调整了<font class=updateContentM>【游侠】</font>的全技能实现方式；
+优化了<font class=updateContentM>【空之律者】</font>的技能“律令”的ai（未完全）；
+优化了<font class=updateContentM>【月魄】</font>的技能“戡乱”的ai；
+调整了<font class=updateContentM>【绯红】</font>的技能“天照”的效果；
+调整了<font class=updateContentM>【荣光】</font>的技能“忠直”和“棐业”的效果；
+优化了<font class=updateContentM>【强袭】</font>的全技能表现；
+优化了<font class=updateContentM>【凯旋】</font>的ai，防止其在无队友时浪费牌；
+优化了通用技能“斠剑”的描述；
+调整了<font class=updateContentM>【奥托薇拉】</font>的技能模组，新增技能“垂爱”；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+调整了<font class=updateContentM>【佐罗】</font>技能“惩恶”的后续效果时机以防止濒死引起后续效果无效；
+修复了<font class=updateContentM>【迷城骇兔】</font>的技能“投影”的弹窗bug；
+修复了<font class=updateContentM>【战车】</font>的技能“撕裂”的弹窗bug；
+修复了<font class=updateContentM>【丹朱】</font>的技能“魔偶”的弹窗bug；
+修复了<font class=updateContentM>【深红】</font>的技能“融核”的效果与描述不一致的bug；
+修复了<font class=updateContentM>【西琳】</font>的技能“亚空”的弹窗bug；
+修复了<font class=updateContentM>【伊甸】</font>的技能“黄金”的效果与描述不一致的bug；
+修复了<font class=updateContentM>【迅羽】</font>在部分情况下无法正确触发技能“龙虎”的bug；
+修复了<font class=updateContentM>【金圣叹】</font>在放弃选择“哭庙”对象时会报错的bug；
+修复了<font class=updateContentM>【影铁】</font>在发动“狩猎”时能选择自己作为目标的bug；
+修复了<font class=updateContentM>【凯旋】</font>的技能“坚韧”在部分情况失效的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【上帝之鞭·阿提拉】</font>，拿到ak就可以考虑干票大的了；
+新增<font class=updateContentV>战国幕府</font>包角色<font class=updateContentM>【重锤将军·直江兼续】</font>，这红桃多是件美事；
+新增<font class=updateContentV>战国幕府</font>包角色<font class=updateContentM>【战国第一兵·真田幸村】</font>，时代的夏侯笨来咯；
+新增<font class=updateContentV>天命骑士</font>包角色<font class=updateContentM>【条顿骑士·猿飞 花】</font>，奔雷逐北，袭取天命；
+新增<font class=updateContentM>【月轮】</font>全技能语音；
+记忆战场本期boss：海姆达尔，空之律者，贝纳勒斯；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.1更新日志 2022/6/8</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+对部分武将的技能ai增加了嘲讽值，以调整ai对局中对该角色的注意力；
+重做了<font class=updateContentM>【瓦尔特·杨】</font>，新的逆熵盟主回来了；
+优化了<font class=updateContentM>【迅羽】</font>的技能“寸劲”的实现方式；
+优化了<font class=updateContentM>【爱茵】</font>的技能“光电”的ai，防止其在无队友时乱给牌；
+优化了<font class=updateContentM>【诺贝尔】</font>的技能“大奖”的ai；
+优化了<font class=updateContentM>【影铁】</font>的技能“狩猎”选择目标的ai；
+调整了<font class=updateContentM>【影铁】</font>的技能“狩猎”，将效果“摸一张”改为“摸等量的”；
+优化了<font class=updateContentM>【白花】</font>的技能ai；
+优化了<font class=updateContentM>【真红】</font>的技能“神陨”的目标选择ai；
+优化了<font class=updateContentM>【真炎幸魂】</font>的技能“杀生”的目标选择ai和发动时机ai；
+优化了<font class=updateContentM>【真炎幸魂】</font>的技能“罪业”的选项ai；
+优化了<font class=updateContentM>【月下初拥】</font>的技能“眷属”的效果显示；
+优化了<font class=updateContentM>【凯文】</font>技能“救世”的使用流程；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【凯文】</font>技能“救世”使用杀效果与描述不一致的bug（调整描述）；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>雷电芽衣</font>包角色<font class=updateContentM>【雷之律者】</font>，斩断一切的煮饭婆；
+新增<font class=updateContentV>布洛妮娅</font>包角色<font class=updateContentM>【理之律者】</font>，老杨（新）plus参上；
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【莎士比亚】</font>，鼓动全场打起来的乐子人来了；
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【查理曼】</font>，酒水充足，尽管取用；
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【奥吉尔】</font>，有人记得奥吉尔中是啥吗（）；
+新增<font class=updateContentM>【雷之律者】</font>、<font class=updateContentM>【理之律者】</font>全技能语音（会导致老杨一开口是鸭的语音）；
+记忆战场本期boss：海姆达尔，空之律者，贝纳勒斯；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.1.0更新日志 2022/5/23</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+调整了<font class=updateContentM>【誓约】</font>技能“犹大”为任意时机满足条件均可发动；
+优化了<font class=updateContentM>【誓约】</font>技能“犹大”的发动顺序，将展示“誓约”牌提前至选择目标前；
+调整了<font class=updateContentC>【黑渊白花】</font>系列的武器的攻击范围；
+优化了<font class=updateContentM>【血色玫瑰】</font>的标记显示；
+优化了<font class=updateContentM>【夜隐重霞】</font>的标记显示；
+优化了<font class=updateContentM>【战士·华】</font>的标记显示；
+优化了<font class=updateContentM>【炽翎】</font>的技能“守望”的ai；
+优化了<font class=updateContentM>【极地战刃】</font>的技能“冲锋”的ai；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【夜隐重霞】</font>技能“我流”描述与效果不符的bug；
+修复了<font class=updateContentM>【血色玫瑰】</font>在技能模组不全的情况下可能会出现报错的bug；
+修复了<font class=updateContentM>【战士·华】</font>在受到伤害后发动浮生时报错的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>神之键</font>系列武器<font class=updateContentC>【破坏之键·天火圣裁】</font>及其重构武器<font class=updateContentC>【天火大剑】</font>；
+新增<font class=updateContentV>神之键</font>系列宝物<font class=updateContentC>【启示之键·虚空万藏】</font>（暂无图片）；
+新增<font class=updateContentV>布衣贤勇</font>包角色<font class=updateContentM>【烈阳先知·泰勒斯】</font>，三角贸易大师；
+新增<font class=updateContentV>恣意文豪</font>包角色<font class=updateContentM>【文艺复兴之祖·但丁】</font>，什么叫超级明哲啊（后仰）；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【英雄·凯文】</font>，那个拿着劫灭的男人来辣；
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【歌者·伊甸】</font>，富婆看这边看这边；
+新增十周年UI下各角色评级；
+记忆战场本期boss：海姆达尔，空之律者，贝纳勒斯；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.9更新日志 2022/5/3</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【月蚀】</font>的“天烬”的技能显示；
+回调<font class=updateContentM>【暴怒】</font>为5血量上限以适应当前强度；
+调整了<font class=updateContentM>【识之律者】</font>技能“逆才”，成为无点牌目标时不再能触发该技能；
+优化了<font class=updateContentM>【Ezie】</font>的技能“小道”的ai，带将军偶尔也是不走小道的捏；
+优化了<font class=updateContentM>【汐】</font>部分技能的ai，带将军还是有点笨比了捏；
+调整了<font class=updateContentM>【汐】</font>血量上限为6；
+优化了v1.0.8前所有的无背景卡面，无e带将军出力怎会连胜；
+调整了卡牌<font class=updateContentC>【崩坏爆发】</font>的卡面；
+优化了<font class=updateContentM>【炽翎】</font>技能“渡尘”的发动语音，在确定发动后才会触发语音；
+调整了锦囊牌<font class=updateContentC>【崩坏爆发】</font>，将效果“受到1点伤害”改为“失去1点体力”；
+优化了通用技能<font class=updateContentS>斠剑</font>的ai，提高了补牌的优先度；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【识之律者】</font>技能“扭转”、“逆才”描述为锁定技但可以被封印的bug；
+修复了<font class=updateContentM>【真炎幸魂】</font>技能“杀生”会将队友作为目标的bug；
+修复了<font class=updateContentM>【银狼的黎明】</font>技能“魔像”语音缺失的bug；
+修复了部分牌上牌角色移去标记后导致的牌堆缺失bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>神州英灵</font>包角色<font class=updateContentM>【人偶师·丹朱】</font>，全场都是复读机啊复读机；
+新增<font class=updateContentV>淌彩流音</font>包角色<font class=updateContentM>【文艺复兴之心·米开朗基罗】</font>，奇怪的卖血将增加了；
+实装了通用技能“律者”、“圣血”；
+新增锦囊牌<font class=updateContentC>【小道消息】</font>，全场传球就在今日；
+新增基本牌<font class=updateContentC>【崩坏结晶】</font>，超级酒来辣；
+新增<font class=updateContentV>神之键</font>系列装备牌<font class=updateContentC>【侵蚀之键·匣中恶魔】</font>，该装备重构后会得到<font class=updateContentC>【侵蚀之键·地藏御魂】</font>；
+新增<font class=updateContentM>【无限·梅比乌斯】</font>全技能语音；
+记忆战场本期boss：海姆达尔，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.8更新日志 2022/4/18</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【云墨丹心】</font>技能“仙法”的描述，以便于了解各个卦象如何得到；
+重做了<font class=updateContentM>【觉者·苏】</font>的全技能机制，现在是时代的界钟真（钟会+曹真）；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【月轮】</font>技能“存志”与描述不一致的bug；
+修复了<font class=updateContentM>【云墨丹心】</font>技能“仙法”离与震的效果与描述不一致的bug；
+修复了<font class=updateContentM>【樱桃炸弹】</font>的技能“头槌”横置效果的bug；
+修复了<font class=updateContentM>【苏】</font>在使用技能“天慧”时语音缺失的bug；
+修复了<font class=updateContentM>【苏】</font>在使用技能“天慧”时显示错误的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>逐火之蛾</font>包角色<font class=updateContentM>【梅比乌斯】</font>，蛇蛇盯上你了哦；
+新增<font class=updateContentV>伏特加女孩</font>包角色<font class=updateContentM>【狂热蓝调】</font>，粉蓝合体天下无敌；
+新增<font class=updateContentM>【蓝莓特工】</font>与<font class=updateContentM>【樱桃炸弹】</font>的彩蛋，具体触发方式与内容请自行探索；
+新增<font class=updateContentV>欧陆风云</font>包角色<font class=updateContentM>【佐罗】</font>，属于是回合外制衡大师了属于是；
+新增<font class=updateContentV>战国幕府</font>包角色<font class=updateContentM>【坂本龙马】</font>，ak呢救一下啊；
+新增锦囊牌<font class=updateContentC>【崩坏爆发】</font>，伤害类群体判定aoe；
+新增装备牌<font class=updateContentC>【创生之键·黑渊白花】</font>，<font class=updateContentV>神之键</font>系列上线；
+记忆战场本期boss：贝纳勒斯，空之律者，识之律者；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.7更新日志 2022/4/6</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentV>圣痕</font>包的分包，将其分为各个系列小包；
+优化了<font class=updateContentV>EX</font>包的分包，将其分为各个系列小包；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了技能“东征”智障ai会打队友的bug；
+修复了<font class=updateContentM>【彼岸双生】</font>技能“双生”因实现方法的原因导致异常体力上限变化的bug；
+修复了部分角色技能语音丢失的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>卡莲</font>包角色<font class=updateContentM>【圣仪装·今样】</font>，卡莲幻想只能有一个榜一来着；
+新增<font class=updateContentV>希儿</font>包角色<font class=updateContentM>【魇夜星渊】</font>，希管严or希尔今天不在家的熊孩子分支进化捏；
+新增<font class=updateContentM>【今样】</font>全技能语音；
+新增<font class=updateContentM>【魇夜星渊】</font>全技能语音；
+新增扩展特殊模式<font class=updateContentV>【记忆战场】</font>，该模式为崩崩崩扩展的boss挑战模式，且存在计分，在胜利时每行动一轮相当于原游戏中战场计时器1秒，这决定了最终出分；
+战场模式新增Boss<font class=updateContentM>【贝纳勒斯】</font>，友情提示，别打出雷龙；
+战场模式新增Boss<font class=updateContentM>【空之律者】</font>，记得带元素伤害；
+战场模式新增Boss<font class=updateContentM>【海姆达尔】</font>，小心红胖.jpg;
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.6更新日志 2022/3/28</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+调整了角色<font class=updateContentM>【次元】</font>技能“世界”，将描述中的“该角色弃置一张牌”改为“该角色摸一
+张牌并受到1点伤害”且优化了判定条件；
+调整了角色<font class=updateContentM>【次元】</font>技能“合金”，改为大展红图or就这样吧；
+调整了角色<font class=updateContentM>【莎莉娜】</font>技能“剑舞”，将“并弃一张牌”改为“然后若你的手牌数不小于
+你的体力上限，你弃一张牌”；
+调整了角色<font class=updateContentM>【夏洛特】</font>技能“绿林”，新增效果“使用♣牌时摸一张牌”；
+调整了角色<font class=updateContentM>【月下初拥】</font>限定技“初拥”的衍生技“眷属”，新增条件“若你的体力值大于1”，防止反对主/主对内无限ex；
+优化了<font class=updateContentM>【开普勒】</font>的技能“面积”的询问显示；
+将本来位于“EX</font>包中的带将军们集体迁移至新建的“带将军</font>包中，该包内容为本人各
+种整活类带将军卡；
+优化了部分标记的简写；
+优化了<font class=updateContentM>【战士·华】</font>的卡面；
+调整了含“SP”标记的技能的实现机制，统一了其标记类型，便于后续与其相关的技能实
+现；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+无
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>带将军</font>包角色<font class=updateContentM>【Argon】</font>，熬夜型带将军参上；
+新增<font class=updateContentV>符华</font>包角色<font class=updateContentM>【影骑士·月轮】</font>，反向那男舅，回合外鸭昂；
+新增<font class=updateContentV>圣痕</font>包角色<font class=updateContentM>【木圣·张衡】</font>，天雷滚滚看谁倒霉；
+新增<font class=updateContentV>圣痕</font>包角色<font class=updateContentM>【鲲鹏散人·金圣叹】</font>，建议群起而评之；
+新增<font class=updateContentV>圣痕</font>包角色<font class=updateContentM>【深海的少女·狄拉克】</font>，一牌两用新选手；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.5更新日志 2022/3/16</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【战场疾风】</font>的角色卡面；
+根据<font class=updateContentM>【月魄】</font>的实战情况，优化了其技能机制，给二技能“戡乱”新增效果“摸等同于判
+定失去标记数的牌”，在有标记时解决了其摸牌白的问题，使其能更容易的摸到其需要的
+杀和锦囊牌；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【华】</font>技能“浮生”在取消发动后仍会发动的bug；
+修复了<font class=updateContentM>【华】</font>技能“火种”在触发角色死亡后仍会发动的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>EX</font>包角色健忘型带将军<font class=updateContentM>【无冕黎明】</font>，有的人打着打着就变白板了捏；
+新增<font class=updateContentV>丽塔</font>包角色<font class=updateContentM>【暗蔷薇】</font>，时代的遗计2桃来辣；
+新增<font class=updateContentV>联动</font>包角色<font class=updateContentM>【断罪皇女！！】</font>，深入敌阵，击其不备；
+新增<font class=updateContentV>德莉莎</font>包角色<font class=updateContentM>【月煌】</font>，不出标先出界，bksw；
+新增<font class=updateContentM>【华】</font>全技能语音；
+新增<font class=updateContentM>【血色玫瑰】</font>全技能语音；
+新增<font class=updateContentM>【影铁】</font>、<font class=updateContentM>【暗蔷薇】</font>全技能语音；
+新增<font class=updateContentM>【夜隐重霞】</font>全技能语音；
+新增<font class=updateContentM>【迅羽】</font>全技能语音；
+新增<font class=updateContentM>【断罪皇女！！】</font>全技能语音；
+新增<font class=updateContentM>【月煌】</font>全技能语音；
+新增全角色角色称号；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.4更新日志 2022/3/9</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【山吹】</font>的开局时护盾技能的添加；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【开普勒】</font>技能文本显示的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>EX</font>包小道型带将军<font class=updateContentM>【Ezie】</font>，带将军请走此小道；
+新增<font class=updateContentV>丽塔</font>包角色<font class=updateContentM>【影铁】</font>，收割生命的狗塔登场；
+新增<font class=updateContentV>姬子</font>包角色<font class=updateContentM>【血色玫瑰】</font>，0.98？是我物火混伤哒；
+新增<font class=updateContentV>符华</font>包角色<font class=updateContentM>【迅羽】</font>，奇奇怪怪的癫狂图图又增加了；
+新增<font class=updateContentV>八重樱</font>包角色<font class=updateContentM>【夜隐重霞】</font>，真·敌不犯我我不犯人；
+新增<font class=updateContentV>圣痕</font>包角色<font class=updateContentM>【爱因斯坦】</font>，相对论呐相对论；
+新增<font class=updateContentM>【千劫】</font>全技能语音，速来体验边叫边打架；
+新增<font class=updateContentM>【苏】</font>全技能语音，就是本体可能需要加强一点；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.3更新日志 2022/3/1</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【月蚀】</font>的技能“传承”的部分语音；
+优化了<font class=updateContentM>【西琳】</font>、<font class=updateContentM>【薪炎之律者】</font>的可获得技能的显示；
+优化了<font class=updateContentM>【月魄】</font>释放技能“戡乱”时的表现；
+优化了<font class=updateContentM>【迷城骇兔】</font>、<font class=updateContentM>【誓约】</font>、<font class=updateContentM>【神恩颂歌】</font>、<font class=updateContentM>【游侠】</font>、<font class=updateContentM>【樱火轮舞】</font>、<font class=updateContentM>【白练】</font>、
+<font class=updateContentM>【真炎幸魂】</font>、<font class=updateContentM>【炽翎】</font>、<font class=updateContentM>【薪炎之律者】</font>、<font class=updateContentM>【云墨丹心】</font>、<font class=updateContentM>【原罪猎人】</font>、<font class=updateContentM>【识之律者
+】</font>、<font class=updateContentM>【影舞冲击】</font>、<font class=updateContentM>【逆神巫女】</font>、<font class=updateContentM>【圣女祈祷】</font>、<font class=updateContentM>【异度黑核侵蚀】</font>、<font class=updateContentM>【银狼的黎明】</font>
+、<font class=updateContentM>【蓝莓特工】</font>、<font class=updateContentM>【樱桃炸弹】</font>、<font class=updateContentM>【战车】</font>、<font class=updateContentM>【强袭】</font>、<font class=updateContentM>【天穹游侠】</font>、<font class=updateContentM>【月魄】</font>、<font class=updateContentM>【破
+晓强袭】</font>的角色卡面；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【月魄】</font>无法因技能“神机”打出转化<font class=updateContentM>【杀】</font>的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>琪亚娜</font>包武将<font class=updateContentM>【空之律者】</font>，女王降临，此刻正是审判之时；
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【阿伏伽德罗】</font>，阿福家的骡会变牌，你会吗；
+新增<font class=updateContentV>布洛妮娅</font>包武将<font class=updateContentM>【雪地狙击】</font>，兔子正在瞄准你.jpg，你害怕了吗；
+新增<font class=updateContentM>【空之律者】</font>全技能语音；
+新增<font class=updateContentM>【蓝莓特工】</font>、<font class=updateContentM>【樱桃炸弹】</font>全技能语音；
+新增<font class=updateContentM>【雪地狙击】</font>全技能语音；
+新增<font class=updateContentM>【彼岸双生】</font>全技能语音；
+新增<font class=updateContentM>【荣光】</font>、<font class=updateContentM>【月魄】</font>全技能语音；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.2更新日志 2022/2/28</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【千劫】</font>、<font class=updateContentM>【极地战刃】</font>、<font class=updateContentM>【月下初拥】</font>、<font class=updateContentM>【苏】</font>、<font class=updateContentM>【月蚀】</font>、<font class=updateContentM>【第六夜想曲】</font>的
+角色卡面；
+优化了<font class=updateContentM>【月蚀】</font>的觉醒技“落幕”的动画颜色；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【月魄】</font>木流牛马中有<font class=updateContentM>【杀】</font>在发动“神机”时无法正确使用的bug；
+修复了<font class=updateContentM>【月蚀】</font>的技能“传承”对部分“琪亚娜”角色发动时没有触发对应效果的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>布洛妮娅</font>包武将<font class=updateContentM>【异度黑核侵蚀】</font>，不怕兵乐翻的加伤菜刀来辣；
+新增<font class=updateContentV>布洛妮娅</font>包武将<font class=updateContentM>【银狼的黎明】</font>，也许，每个人都可以成为遗计二桃选手；
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【小人国公主·列文虎克】</font>，听话，让我康康！；
+新增<font class=updateContentV>符华</font>包武将<font class=updateContentM>【华】</font>，万能浮生你值得拥有；
+新增<font class=updateContentV>EX</font>包武将<font class=updateContentM>【汐】</font>，非酋型带将军参见；
+新增<font class=updateContentM>【白练】</font>技能语音2；
+新增<font class=updateContentM>【游侠】</font>、<font class=updateContentM>【圣女祈祷】</font>、<font class=updateContentM>【月光】</font>、<font class=updateContentM>【天穹游侠】</font>、<font class=updateContentM>【薪炎之律者】</font>全技能语音；
+新增<font class=updateContentM>【绯红】</font>、<font class=updateContentM>【强袭】</font>、<font class=updateContentM>【影舞冲击】</font>、<font class=updateContentM>【鬼凯】</font>、<font class=updateContentM>【破晓强袭】</font>全技能语音；
+新增<font class=updateContentM>【山吹】</font>、<font class=updateContentM>【彗星驱动】</font>、<font class=updateContentM>【战车】</font>、<font class=updateContentM>【次元】</font>、<font class=updateContentM>【迷城骇兔】</font>、<font class=updateContentM>【银狼的黎明】</font>、
+<font class=updateContentM>【异度黑核侵蚀】</font>全技能语音；
+新增<font class=updateContentM>【战场疾风】</font>、<font class=updateContentM>【凯旋】</font>、<font class=updateContentM>【深红】</font>、<font class=updateContentM>【月蚀】</font>、<font class=updateContentM>【极地战刃】</font>全技能语音；
+新增<font class=updateContentM>【誓约】</font>、<font class=updateContentM>【神恩颂歌】</font>、<font class=updateContentM>【月下初拥】</font>全技能语音；
+新增<font class=updateContentM>【樱火轮舞】</font>2，3技能语音；
+新增<font class=updateContentM>【逆神巫女】</font>、<font class=updateContentM>【真炎幸魂】</font>全技能语音；
+新增<font class=updateContentM>【第六夜想曲】</font>、<font class=updateContentM>【原罪猎人】</font>全技能语音；
+新增<font class=updateContentM>【炽翎】</font>、<font class=updateContentM>【云墨丹心】</font>全技能语音；
+</p></details><hr>
+
+<h1 class=updateContent1>v1.0.1更新日志 2022/2/22</h1><details><summary>更新日志内容</summary>
+<h3 class=updateContent1>—————优化——————————————————————————————</h3><p class=updateContent1>
+优化了<font class=updateContentM>【荣光】</font>的“恢弘”技能ai；
+</p><h3 class=updateContent1>—————修复——————————————————————————————</h3><p class=updateContent1>
+修复了<font class=updateContentM>【破晓强袭】</font>技能“流电”与描述不符的bug；
+修复了<font class=updateContentM>【千劫】</font>技能“鏖灭”在部分情况下会因“非天”而成为自我鞭尸永动机的bug；
+修复了<font class=updateContentM>【战车】</font>可以对无牌目标发动“撕裂”而导致报错的bug；
+修复了<font class=updateContentM>【真炎幸魂】</font>在单次受到多点伤害时“残心”标记数可以超过5的bug；
+</p><h3 class=updateContent1>—————新增——————————————————————————————</h3><p class=updateContent1>
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【天空立法者·开普勒】</font>，人称sp距离掌控者；
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【射手·夏洛特】</font>，风林火山怀旧不二之选；
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【剑士·莎莲娜】</font>，人称小王基，过牌强无敌；
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【放逐骑士·维多利亚】</font>，起手癫狂图图，在链祸方面是界小卡车；
+新增<font class=updateContentV>圣痕</font>包武将<font class=updateContentM>【狂暴骑士·里纳尔多】</font>，主动卖血神将，从此告别不动白；
+恭喜<font class=updateContentM>【白练】</font>称为本扩展第一位拥有技能语音的角色，新增<font class=updateContentM>【白练】</font>技能语音；
+新增<font class=updateContentV>德莉莎</font>包武将<font class=updateContentM>【神恩颂歌】</font>，反向奸雄的仁德人；
+新增<font class=updateContentV>幽兰戴尔</font>包武将<font class=updateContentM>【月魄】</font>，时代的带数学家；
+</p>
+</div>
